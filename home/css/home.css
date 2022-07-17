@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background: url(../img/bg.jpg) no-repeat bottom right;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #bcffac9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* 内容模块占据页面大小 */
+.content {
+  height: 100vh;
+  display: flex;
+  width: 1400px;
+  height: 100vh;
+  /* background-color: #fff; */
+}
+/* 版权模块与内容模块宽度一致 */
+.copyright {
+  width: 1400px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* 导航栏有两个板块竖向排列-导航整体与文章横向排列 */
+.nav {
+  /* background-color: rgba(212, 223, 62, 0.479); */
+  width: 280px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* padding-bottom: 40px; */
+}
+.nav-box1 {
+  /* height: 400px; */
+  width: 100%;
+  /* background-color: rgb(212, 35, 35); */
+}
+.nav-box1 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.nav-box1 .logo img {
+  width: 150px;
+  opacity: 0.8;
+}
+.nav-box1 .nav-new {
+  /* height: 200px; */
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.nav-new ul {
+  list-style: none;
+  padding: 20px 0px;
+}
+.nav-new ul li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 1em;
+}
+ul a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+ul span {
+  font-style: none;
+  opacity: 0.6;
+}
+body .content .nav .nav-box1 ul .home span {
+  opacity: 1;
+}
+body .content li span {
+  font-size: 14px;
+}
+.nav-new ul li:hover {
+  background-color: rgb(82, 82, 82, 0.6);
+}
+.nav-box2 {
+  margin-top: 10px;
+  /* height: 500px; */
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.6);
+  margin-bottom: 200px;
+}
+.nav-box2 .head-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 210px;
+  flex-direction: column;
+}
+.nav-box2 .head-img img {
+  display: block;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 16px grey;
+  opacity: 0.8;
+  
+}
+
+.nav-box2 .head-img span {
+  display: block;
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: 900;
+}
+.nav-box2 .music {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+.nav-box2 .music .music-- {
+    
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0.7;
+  width: 250px;
+}
+.link {
+    margin: 29px;
+    /* display: flex; */
+}
+.link table {
+    width: 100%;
+    text-align: center;
+    opacity: .7;
+    /* width: 100px; */
+    /* margin: 0px 10px; */
+}
+.essay {
+  /* display: none; */
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 1110px;
+  margin-left: 10px;
+  backdrop-filter: saturate(300%) blur(5px);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
